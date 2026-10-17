@@ -1,0 +1,33 @@
+# secrets
+.env
+**/.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+
+# ML data/model artifacts
+ml/data/raw/*
+!ml/data/raw/.gitkeep
+ml/data/processed/*
+!ml/data/processed/.gitkeep
+ml/models/*
+!ml/models/.gitkeep
+ml/results/*
+!ml/results/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
